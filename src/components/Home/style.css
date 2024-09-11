@@ -1,0 +1,13 @@
+.container > ul {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.item {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

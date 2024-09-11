@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function Exercise06() {
   return (
     <div>
-      <h1>Exercise 6</h1>
+      <h1>Exercise 06</h1>
     </div>
   );
 }
