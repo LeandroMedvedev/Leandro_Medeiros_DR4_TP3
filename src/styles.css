@@ -26,6 +26,11 @@ a:hover {
   font-size: 1.33rem;
 }
 
+p {
+  text-align: justify;
+  text-indent: 20px;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #282c34;

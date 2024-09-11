@@ -3,22 +3,53 @@ import PepsiOne from '../../assets/images/soft-drinks/pepsi-01.jpg';
 import PepsiTwo from '../../assets/images/soft-drinks/pepsi-02.jpg';
 import PepsiThree from '../../assets/images/soft-drinks/pepsi-03.jpg';
 
-import styles from './style.module.css';
-
-const { container, containerContent, containerImages, containerMainImage } =
-  styles;
-
 function Exercise02() {
   return (
-    <div className={container}>
-      <section className={containerImages}>
-        <img src={PepsiOne} alt='Pepsi and burger' />
-        <img src={PepsiTwo} alt='Pepsi and burger' />
-        <img src={PepsiThree} alt='Pepsi and burger' />
+    <div
+      style={{
+        width: '70%',
+        height: '95vh',
+        margin: '15px auto 0px',
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        gridTemplateRows: '1fr 3fr',
+        gap: '35px',
+      }}
+    >
+      <section
+        style={{
+          gridColumn: '1 / 3',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+        }}
+      >
+        <img
+          style={{ width: '160px', height: '160px' }}
+          src={PepsiOne}
+          alt='Pepsi and burger'
+        />
+        <img
+          style={{ width: '160px', height: '160px' }}
+          src={PepsiTwo}
+          alt='Pepsi and burger'
+        />
+        <img
+          style={{ width: '160px', height: '160px' }}
+          src={PepsiThree}
+          alt='Pepsi and burger'
+        />
       </section>
-      <main className={containerContent}>
+      <main
+        style={{
+          gridColumn: '1 / 2',
+          display: 'grid',
+          alignSelf: 'start',
+          justifyItems: 'start',
+        }}
+      >
         <h1>Pepsi</h1>
-        <p>
+        <p style={{ overflowY: 'auto' }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quam
           rerum, sint optio dolorem eveniet sit minus eos at quos iusto animi,
           vel voluptate id reprehenderit asperiores pariatur ipsum odio! Iusto
@@ -33,8 +64,19 @@ function Exercise02() {
           tempore!
         </p>
       </main>
-      <aside className={containerMainImage}>
-        <img src={Pepsi} alt='Can of Pepsi' />
+      <aside
+        style={{
+          gridColumn: '2 / 3',
+          display: 'flex',
+          justifyContent: 'end',
+          alignItems: 'flex-start',
+        }}
+      >
+        <img
+          style={{ width: '95%', height: '65vh' }}
+          src={Pepsi}
+          alt='Can of Pepsi'
+        />
       </aside>
     </div>
   );

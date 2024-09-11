@@ -1,11 +1,11 @@
 import ReactLogo from '../../assets/images/techs/react.jpg';
-import './style.css';
+import style from './style.module.css';
 
 function Exercise01() {
   return (
-    <div className='container'>
+    <div className={style.container}>
       <img src={ReactLogo} alt='React logo ' />
-      <h1>Exercício 01</h1>
+      <h1>React</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
         provident deleniti placeat neque. Sit harum distinctio, incidunt ratione
