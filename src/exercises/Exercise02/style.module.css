@@ -1,0 +1,49 @@
+.container {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  height: 100vh;
+}
+
+.containerImages {
+  grid-column: 1 / 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerImages > img {
+  max-width: 30%;
+  height: 130px;
+}
+
+.containerContent {
+  grid-column: 1 / 2;
+  display: grid;
+  align-self: start;
+}
+
+.containerContent > p {
+  overflow-y: auto;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.containerContent > p::first-letter {
+  font-size: 1.9rem;
+  line-height: 1;
+}
+
+.containerMainImage {
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.containerMainImage > img {
+  width: 95%;
+  height: 65vh;
+}

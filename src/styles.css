@@ -23,4 +23,16 @@ a {
 a:hover {
   font-weight: 900;
   color: #03031b;
+  font-size: 1.33rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #282c34;
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
 }
