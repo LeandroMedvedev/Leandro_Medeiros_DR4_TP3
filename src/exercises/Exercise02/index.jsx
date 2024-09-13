@@ -27,17 +27,17 @@ function Exercise02() {
         <img
           style={{ width: '160px', height: '160px' }}
           src={PepsiOne}
-          alt='Pepsi and burger'
+          alt="Pepsi and burger"
         />
         <img
           style={{ width: '160px', height: '160px' }}
           src={PepsiTwo}
-          alt='Pepsi and burger'
+          alt="Pepsi and burger"
         />
         <img
           style={{ width: '160px', height: '160px' }}
           src={PepsiThree}
-          alt='Pepsi and burger'
+          alt="Pepsi and burger"
         />
       </section>
       <main
@@ -75,7 +75,7 @@ function Exercise02() {
         <img
           style={{ width: '95%', height: '65vh' }}
           src={Pepsi}
-          alt='Can of Pepsi'
+          alt="Can of Pepsi"
         />
       </aside>
     </div>

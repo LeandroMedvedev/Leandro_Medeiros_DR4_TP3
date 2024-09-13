@@ -12,9 +12,9 @@ function Exercise03() {
   return (
     <div className={container}>
       <section className={containerImages}>
-        <img src={PepsiOne} alt='Pepsi and burger' />
-        <img src={PepsiTwo} alt='Pepsi and burger' />
-        <img src={PepsiThree} alt='Pepsi and burger' />
+        <img src={PepsiOne} alt="Pepsi and burger" />
+        <img src={PepsiTwo} alt="Pepsi and burger" />
+        <img src={PepsiThree} alt="Pepsi and burger" />
       </section>
       <main className={containerContent}>
         <h1>Pepsi</h1>
@@ -34,7 +34,7 @@ function Exercise03() {
         </p>
       </main>
       <aside className={containerMainImage}>
-        <img src={Pepsi} alt='Can of Pepsi' />
+        <img src={Pepsi} alt="Can of Pepsi" />
       </aside>
     </div>
   );

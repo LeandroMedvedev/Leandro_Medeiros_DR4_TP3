@@ -22,23 +22,23 @@ import {
 function AppRoutes() {
   return (
     <Routes>
-      <Route path='/' exact element={<Home />} />
-      <Route path='/exercise-one' element={<Exercise01 />} />
-      <Route path='/exercise-two' element={<Exercise02 />} />
-      <Route path='/exercise-three' element={<Exercise03 />} />
-      <Route path='/exercise-four' element={<Exercise04 />} />
-      <Route path='/exercise-five' element={<Exercise05 />} />
-      <Route path='/exercise-six' element={<Exercise06 />} />
-      <Route path='/exercise-seven' element={<Exercise07 />} />
-      <Route path='/exercise-eight' element={<Exercise08 />} />
-      <Route path='/exercise-nine' element={<Exercise09 />} />
-      <Route path='/exercise-ten' element={<Exercise10 />} />
-      <Route path='/exercise-eleven' element={<Exercise11 />} />
-      <Route path='/exercise-twelve' element={<Exercise12 />} />
-      <Route path='/exercise-thirteen' element={<Exercise13 />} />
-      <Route path='/exercise-fourteen' element={<Exercise14 />} />
-      <Route path='/exercise-fifteen' element={<Exercise15 />} />
-      <Route path='/exercise-sixteen' element={<Exercise16 />} />
+      <Route path="/" exact element={<Home />} />
+      <Route path="/exercise-one" element={<Exercise01 />} />
+      <Route path="/exercise-two" element={<Exercise02 />} />
+      <Route path="/exercise-three" element={<Exercise03 />} />
+      <Route path="/exercise-four" element={<Exercise04 />} />
+      <Route path="/exercise-five" element={<Exercise05 />} />
+      <Route path="/exercise-six" element={<Exercise06 />} />
+      <Route path="/exercise-seven" element={<Exercise07 />} />
+      <Route path="/exercise-eight" element={<Exercise08 />} />
+      <Route path="/exercise-nine" element={<Exercise09 />} />
+      <Route path="/exercise-ten" element={<Exercise10 />} />
+      <Route path="/exercise-eleven" element={<Exercise11 />} />
+      <Route path="/exercise-twelve" element={<Exercise12 />} />
+      <Route path="/exercise-thirteen" element={<Exercise13 />} />
+      <Route path="/exercise-fourteen" element={<Exercise14 />} />
+      <Route path="/exercise-fifteen" element={<Exercise15 />} />
+      <Route path="/exercise-sixteen" element={<Exercise16 />} />
     </Routes>
   );
 }
