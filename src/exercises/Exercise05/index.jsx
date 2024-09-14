@@ -1,9 +1,16 @@
-import React from 'react';
+import Card from './Card';
+import styles from './style.module.css';
+
+const { container } = styles;
 
 function Exercise05() {
   return (
-    <div>
-      <h1>Exercise 05</h1>
+    <div className={container}>
+      <h1 className="title">Cards</h1>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 }

@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Exercise08() {
   return (
     <div>
