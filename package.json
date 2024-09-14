@@ -8,6 +8,21 @@
     "performance"
   ],
   "main": "src/index.jsx",
+  "scripts": {
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "lint:fix": "eslint 'src/**/*.{js,jsx}' --fix",
+    "format": "prettier --write 'src/**/*.{js,jsx}'",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -24,20 +39,5 @@
     "globals": "^15.9.0",
     "loader-utils": "3.2.1",
     "prettier": "^3.3.3"
-  },
-  "scripts": {
-    "lint": "eslint 'src/**/*.{js,jsx}'",
-    "lint:fix": "eslint 'src/**/*.{js,jsx}' --fix",
-    "format": "prettier --write 'src/**/*.{js,jsx}'",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }
