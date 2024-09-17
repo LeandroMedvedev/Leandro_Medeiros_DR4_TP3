@@ -8,52 +8,84 @@ function Home() {
 
       <ul>
         <li className="item">
-          <Link to="/exercise-one">Exercício 01</Link>
+          <Link className="link" to="/exercise-one">
+            Exercício 01
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-two">Exercício 02</Link>
+          <Link className="link" to="/exercise-two">
+            Exercício 02
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-three">Exercício 03</Link>
+          <Link className="link" to="/exercise-three">
+            Exercício 03
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-four">Exercício 04</Link>
+          <Link className="link" to="/exercise-four">
+            Exercício 04
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-five">Exercício 05</Link>
+          <Link className="link" to="/exercise-five">
+            Exercício 05
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-six">Exercício 06</Link>
+          <Link className="link" to="/exercise-six">
+            Exercício 06
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-seven">Exercício 07</Link>
+          <Link className="link" to="/exercise-seven">
+            Exercício 07
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-eight">Exercício 08</Link>
+          <Link className="link" to="/exercise-eight">
+            Exercício 08
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-nine">Exercício 09</Link>
+          <Link className="link" to="/exercise-nine">
+            Exercício 09
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-ten">Exercício 10</Link>
+          <Link className="link" to="/exercise-ten">
+            Exercício 10
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-eleven">Exercício 11</Link>
+          <Link className="link" to="/exercise-eleven">
+            Exercício 11
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-twelve">Exercício 12</Link>
+          <Link className="link" to="/exercise-twelve">
+            Exercício 12
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-thirteen">Exercício 13</Link>
+          <Link className="link" to="/exercise-thirteen">
+            Exercício 13
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-fourteen">Exercício 14</Link>
+          <Link className="link" to="/exercise-fourteen">
+            Exercício 14
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-fifteen">Exercício 15</Link>
+          <Link className="link" to="/exercise-fifteen">
+            Exercício 15
+          </Link>
         </li>
         <li className="item">
-          <Link to="/exercise-sixteen">Exercício 16</Link>
+          <Link className="link" to="/exercise-sixteen">
+            Exercício 16
+          </Link>
         </li>
       </ul>
     </div>

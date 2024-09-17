@@ -19,5 +19,5 @@ exemplo:
 
 **Instruções:**
 
-- Crie componentes isolados e montes em um componente principal;
+- Crie componentes isolados e monte em um componente principal;
 - Crie os estilos em um arquivo styles.css e importe em seus componentes.
