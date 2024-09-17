@@ -1,0 +1,136 @@
+iframe {
+  width: 100%;
+  height: 220px;
+  margin-top: 10px;
+  filter: grayscale(90%);
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 10px;
+  color: #282c34;
+}
+
+.container > h2 {
+  font-family: 'Kolker Brush', cursive;
+  font-size: 3.8rem;
+  font-weight: 100;
+}
+
+.container > h3 {
+  margin-top: 15px;
+  font-size: 3rem;
+  font-family: 'Kolker Brush', cursive;
+  font-weight: 100;
+}
+
+.container > h2:hover {
+  color: #c5b358;
+}
+
+.container > .form {
+  width: 310px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 8px;
+}
+
+.form > input {
+  height: 40px;
+  border: none;
+  color: #03031b;
+}
+
+.form > label {
+  text-indent: 10px;
+}
+
+.form > input {
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  font-family: Alegreya, serif;
+  color: #282c34;
+  transition: border-bottom-color 0.4s ease-in-out;
+}
+
+.form > input::placeholder,
+.form > textarea::placeholder {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+
+.form > input:focus {
+  border-bottom-color: #c5b358;
+}
+
+.form > textarea:focus {
+  border-color: #c5b358;
+  transition: border-color 0.4s ease-in-out;
+}
+
+.form > textarea {
+  border: 1px solid rgba(40, 44, 52, 0.3);
+  padding: 10px;
+  outline: none;
+  font-size: 1rem;
+  font-family: Alegreya, serif;
+  color: #282c34;
+}
+
+.form > button {
+  width: 90%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #fff;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: Genos, sans-serif;
+  background-color: #c5b358;
+  color: #fff;
+  box-shadow: 0 0 3px #282c34;
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    color: #fff;
+  }
+
+  .form > input,
+  .form > textarea {
+    background-color: #fff;
+    color: #03031b;
+  }
+}
+
+@media (min-width: 375px) {
+  .container > h2 {
+    font-size: 4.4rem;
+  }
+
+  .container > h3 {
+    font-size: 3.4rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .container > ul {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container > .form {
+    width: 550px;
+  }
+
+  .form > input,
+  .form > textarea {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  background-color: #fcf5f5;
+}
+
+.container > h2 {
+  font-family: 'Kolker Brush', cursive;
+  font-size: 3.8rem;
+  font-weight: 100;
+}
+
+.container > h2:hover {
+  color: #c5b358;
+}
+
+.container > p {
+  max-width: 600px;
+  font-size: 1rem;
+}
+
+#ourTeamSubtitle {
+  margin-top: 15px;
+}
+
+.containerImages {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.containerImages > img {
+  width: 150px;
+  filter: grayscale(90%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1e2127;
+  }
+}
+
+@media (min-width: 375px) {
+  .container > h2 {
+    font-size: 4.4rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .container > p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 65%;
+  }
+  .container > p {
+    padding: 0px 15px 10px;
+  }
+}
