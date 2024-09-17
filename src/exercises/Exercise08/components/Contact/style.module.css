@@ -96,6 +96,23 @@ iframe {
   box-shadow: 0 0 3px #282c34;
 }
 
+@media (prefers-color-scheme: dark) {
+  .container {
+    color: #fff;
+  }
+
+  .form > input,
+  .form > textarea {
+    background-color: #fff;
+    color: #fff;
+  }
+
+  .form > input::placeholder,
+  .form > textarea::placeholder {
+    color: #fff;
+  }
+}
+
 @media (min-width: 375px) {
   .container > h2 {
     font-size: 4.4rem;

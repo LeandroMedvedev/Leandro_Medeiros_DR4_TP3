@@ -13,8 +13,10 @@
   display: none;
 }
 
-.header > img {
+.logoIcon svg {
   width: 80px;
+  fill: #c5b358;
+  stroke: #282c34;
 }
 
 .listItem:hover {
@@ -52,5 +54,15 @@
 @media (min-width: 1000px) {
   .header > span {
     font-size: 2.5rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    box-shadow: 2px 2px 3px #fff;
+  }
+  .logoIcon svg {
+    fill: #fff;
+    stroke: #fff;
   }
 }

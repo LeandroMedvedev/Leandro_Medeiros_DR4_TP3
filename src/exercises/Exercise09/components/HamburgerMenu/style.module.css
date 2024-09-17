@@ -69,6 +69,16 @@
   color: #c5b358;
 }
 
+@media (prefers-color-scheme: dark) {
+  .hamburger span {
+    background-color: #fff;
+  }
+
+  .menuOptions {
+    background-color: rgba(40, 44, 52, 0.5);
+  }
+}
+
 @media (min-width: 768px) {
   .hamburger {
     display: none;

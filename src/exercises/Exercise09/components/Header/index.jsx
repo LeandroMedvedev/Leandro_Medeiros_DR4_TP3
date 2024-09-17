@@ -1,13 +1,13 @@
 import styles from './style.module.css';
-import womanWithLongHair from '../../../../assets/icons/woman-with-long-hair.svg';
 import HamburgerMenu from '../HamburgerMenu';
+import Icon from '../Icon';
 
-const { header, list, listItem } = styles;
+const { header, logoIcon, list, listItem } = styles;
 
 function Header() {
   return (
     <header className={header}>
-      <img src={womanWithLongHair} alt="Female hairs icon" />
+      <Icon className={logoIcon} />
 
       <HamburgerMenu />
 
