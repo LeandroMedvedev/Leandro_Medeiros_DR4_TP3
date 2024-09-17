@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  height: 100px;
+  padding: 6px 47px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 3px #282c34;
+}
+
+.list {
+  display: none;
+}
+
+.header > img {
+  width: 80px;
+}
+
+.listItem:hover {
+  height: 100%;
+  background-color: transparent;
+  box-shadow: 0 0 3px #d6d4d4;
+}
+
+@media (min-width: 728px) {
+  .header {
+    margin-bottom: 15px;
+  }
+
+  .header > span {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    justify-content: space-evenly;
+  }
+
+  .list {
+    width: max-content;
+    display: flex;
+    gap: 12px;
+  }
+
+  .header > nav > ul > li > a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header > span {
+    font-size: 2.5rem;
+  }
+}

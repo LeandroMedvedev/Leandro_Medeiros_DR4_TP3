@@ -1,0 +1,31 @@
+.containerImages {
+  max-width: 1080px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.container > h2 {
+  font-family: 'Kolker Brush', cursive;
+  font-size: 3.8rem;
+  font-weight: 100;
+}
+
+.container > h2:hover {
+  color: #c5b358;
+}
+
+.containerImages > img {
+  width: 100%;
+  max-width: 355px;
+  height: 293px;
+  filter: grayscale(90%);
+}
+
+@media (min-width: 375px) {
+  .container > h2 {
+    font-size: 4.4rem;
+  }
+}
