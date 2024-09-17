@@ -45,6 +45,12 @@
   filter: grayscale(90%);
 }
 
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1e2127;
+  }
+}
+
 @media (min-width: 375px) {
   .container > h2 {
     font-size: 4.4rem;
