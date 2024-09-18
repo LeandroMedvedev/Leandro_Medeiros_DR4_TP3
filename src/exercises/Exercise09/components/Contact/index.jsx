@@ -1,4 +1,4 @@
-import IFRAME_URL from '../../../../constants';
+import { IFRAME_URL } from '../../../../constants';
 import ScrollToTopIcon from '../ScrollToTopIcon';
 import styles from './style.module.css';
 

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { ReactSVG } from 'react-svg';
-import womanWithLongHair from '../../../../assets/icons/woman-with-long-hair.svg';
+import womanWithLongHair from '../../../../assets/icons/vanessa/woman-with-long-hair.svg';
 
 function Icon({ className }) {
   return (

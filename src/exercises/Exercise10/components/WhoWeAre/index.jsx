@@ -1,7 +1,7 @@
 import styles from './style.module.css';
-import makingBrush from '../../../../assets/images/vanessa-studio/making-brush.jpg';
-import colorHair from '../../../../assets/images/vanessa-studio/color-hair.jpg';
-import washingHair from '../../../../assets/images/vanessa-studio/washing-hair.jpg';
+import makingBrush from '../../../../assets/images/vanessa/making-brush.jpg';
+import colorHair from '../../../../assets/images/vanessa/color-hair.jpg';
+import washingHair from '../../../../assets/images/vanessa/washing-hair.jpg';
 
 const { container, containerImages, ourTeamSubtitle } = styles;
 

@@ -1,11 +1,11 @@
 import styles from './style.module.css';
 
-import keune from '../../../../assets/images/vanessa-studio/keune.jpg';
-import keuneTintaColor from '../../../../assets/images/vanessa-studio/keune-tinta-color.jpg';
-import lamer from '../../../../assets/images/vanessa-studio/lamer.jpg';
-import lancome from '../../../../assets/images/vanessa-studio/lancome.jpg';
-import lorealLashParadise from '../../../../assets/images/vanessa-studio/loreal-lash-paradise.jpg';
-import lorealMask from '../../../../assets/images/vanessa-studio/loreal-mask.jpg';
+import keune from '../../../../assets/images/vanessa/keune.jpg';
+import keuneTintaColor from '../../../../assets/images/vanessa/keune-tinta-color.jpg';
+import lamer from '../../../../assets/images/vanessa/lamer.jpg';
+import lancome from '../../../../assets/images/vanessa/lancome.jpg';
+import lorealLashParadise from '../../../../assets/images/vanessa/loreal-lash-paradise.jpg';
+import lorealMask from '../../../../assets/images/vanessa/loreal-mask.jpg';
 
 const { container, containerImages } = styles;
 

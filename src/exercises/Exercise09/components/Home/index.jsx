@@ -1,5 +1,5 @@
 import styles from './style.module.css';
-import vanessaStudio from '../../../../assets/images/vanessa-studio/cottonbro-studio.jpg';
+import vanessaStudio from '../../../../assets/images/vanessa/cottonbro-studio.jpg';
 
 const { container, containerText } = styles;
 

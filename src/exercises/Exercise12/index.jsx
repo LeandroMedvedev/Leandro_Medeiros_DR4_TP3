@@ -1,8 +1,10 @@
+import Skills from './components/Skills';
+
 function Exercise12() {
   return (
-    <div>
-      <h1>Exercise 12</h1>
-    </div>
+    <>
+      <Skills />
+    </>
   );
 }
 
