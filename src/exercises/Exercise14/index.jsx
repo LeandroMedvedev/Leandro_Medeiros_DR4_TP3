@@ -1,8 +1,12 @@
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
 function Exercise14() {
   return (
-    <div>
-      <h1>Exercise 14</h1>
-    </div>
+    <>
+      <Contact />
+      <Footer />
+    </>
   );
 }
 

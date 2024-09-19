@@ -41,6 +41,20 @@ import eventsManagement from '../assets/images/leandro/projects/eventsmanagement
 import kenzieHub from '../assets/images/leandro/projects/kenziehub.png';
 import habitsChange from '../assets/images/leandro/projects/habitschange.png';
 
+import facebook from '../assets/icons/leandro/social-media/facebook.svg';
+import gitHub from '../assets/icons/leandro/social-media/github-circle.svg';
+import linkedIn from '../assets/icons/leandro/social-media/linkedin.svg';
+import x from '../assets/icons/leandro/social-media/x.svg';
+import youTube from '../assets/icons/leandro/social-media/youtube.svg';
+
+const SOCIAL_MEDIA_ICON = {
+  facebook,
+  gitHub,
+  linkedIn,
+  x,
+  youTube,
+};
+
 const SVG_MAPPING = {
   Angular: AngularIcon,
   Bash: BashIcon,
@@ -176,7 +190,26 @@ const PROJECT_DATA = [
   },
 ];
 
+const MAIL_TO =
+  'mailto:medvedevleandro@outlook.com?body=Olá%20Leandro,%0D%0AEspero%20que%20esteja%20bem!';
+
 const IFRAME_URL =
   'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.9998109221574!2d-46.570707625445905!3d-22.9701065401356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cec96c707c301b%3A0x916c07d2a7f4bebc!2sBragan%C3%A7a%20Shopping%20Center!5e1!3m2!1spt-BR!2sbr!4v1726464481336!5m2!1spt-BR!2sbr';
 
-export { PROJECT_DATA, IFRAME_URL, SKILLS, SVG_MAPPING };
+const SOCIAL_MEDIA_URL = {
+  facebook: 'https://www.facebook.com/leandromedvedev',
+  gitHub: 'https://github.com/LeandroMedvedev',
+  linkedIn: 'https://www.linkedin.com/in/leandromedvedev/',
+  x: 'https://twitter.com/EvLeandr',
+  youTube: 'https://www.youtube.com/@leandromedvedev',
+};
+
+export {
+  IFRAME_URL,
+  PROJECT_DATA,
+  MAIL_TO,
+  SKILLS,
+  SOCIAL_MEDIA_ICON,
+  SOCIAL_MEDIA_URL,
+  SVG_MAPPING,
+};

@@ -1,0 +1,13 @@
+.icon {
+  fill: var(--midnight-blue);
+}
+
+.icon:hover {
+  fill: var(--biloba-flower);
+}
+
+@media (prefers-color-scheme: dark) {
+  .icon {
+    fill: var(--white);
+  }
+}
