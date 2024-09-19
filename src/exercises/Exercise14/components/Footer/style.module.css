@@ -1,4 +1,4 @@
-footer {
+.container {
   width: 99.5%;
   padding-top: 20px;
   margin-top: 0.5rem;
@@ -15,8 +15,8 @@ footer {
   gap: 12px;
 }
 
-footer section,
-footer div {
+.container section,
+.container div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@ footer div {
 }
 
 @media (min-width: 425px) {
-  footer {
+  .container {
     width: 99.5%;
     padding-top: 34px;
     margin-top: 0.5rem;
@@ -58,7 +58,7 @@ footer div {
 }
 
 @media (prefers-color-scheme: dark) {
-  footer {
+  .container {
     border-color: var(--white);
   }
 

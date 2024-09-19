@@ -4,7 +4,7 @@ import Svg from '../Svg';
 
 function Footer() {
   return (
-    <footer>
+    <footer className={styles.container}>
       <div className={styles.name}>&copy; 2024 Leandro Medvedev</div>
       <div>
         <div>
