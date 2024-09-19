@@ -1,4 +1,4 @@
-import me from '../../../../assets/images/leandro/me-01.jpg';
+import me from '../../../../assets/images/leandro/photos/me-01.jpg';
 import styles from './style.module.css';
 
 const { container, photo } = styles;

@@ -1,8 +1,10 @@
+import Projects from './components/Projects';
+
 function Exercise13() {
   return (
-    <div>
-      <h1>Exercise 13</h1>
-    </div>
+    <>
+      <Projects />
+    </>
   );
 }
 
