@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container > h2 {
+  margin-bottom: 20px;
+  font-size: 2.8rem;
+  font-weight: 400;
+  text-shadow: 0 0 3px var(--ebony);
+}
+
+.container > div {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 1.2rem;
+}
+
+.container > div > p {
+  text-indent: 0px;
+}
+
+@media (min-width: 425px) {
+  .container > div {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container > h2 {
+    font-size: 3.2rem;
+  }
+}
