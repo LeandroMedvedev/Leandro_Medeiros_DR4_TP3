@@ -55,6 +55,24 @@ const SOCIAL_MEDIA_ICON = {
   youTube,
 };
 
+const COURSES = [
+  {
+    course: 'Engenharia de Software',
+    institution: 'Instituto Infnet',
+    period: '2023 - presente',
+  },
+  {
+    course: 'Desenvolvimento Web Full Stack',
+    institution: 'Kenzie Academy Brasil',
+    period: '2021 - 2022',
+  },
+  {
+    course: 'Análise e Desenvolvimento de Sistemas',
+    institution: 'Centro Universitário Senac',
+    period: '2020 - 2021',
+  },
+];
+
 const SVG_MAPPING = {
   Angular: AngularIcon,
   Bash: BashIcon,
@@ -205,6 +223,7 @@ const SOCIAL_MEDIA_URL = {
 };
 
 export {
+  COURSES,
   IFRAME_URL,
   PROJECT_DATA,
   MAIL_TO,
