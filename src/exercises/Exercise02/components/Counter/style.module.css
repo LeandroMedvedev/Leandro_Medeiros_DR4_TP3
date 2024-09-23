@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > h1 {
+  width: 220px;
+}
+
+.container > button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: var(--font-syne-mono);
+  font-size: 1.2rem;
+}
