@@ -1,10 +1,10 @@
-import Education from './components/Education';
+import style from './style.module.css';
 
 function Exercise15() {
   return (
-    <>
-      <Education />
-    </>
+    <div className={style.container}>
+      <p>Exercício</p>
+    </div>
   );
 }
 

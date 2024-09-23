@@ -1,10 +1,10 @@
-import Skills from './components/Skills';
+import style from './style.module.css';
 
 function Exercise12() {
   return (
-    <>
-      <Skills />
-    </>
+    <div className={style.container}>
+      <p>Exercício</p>
+    </div>
   );
 }
 

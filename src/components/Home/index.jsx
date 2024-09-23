@@ -4,7 +4,8 @@ import './style.css';
 function Home() {
   return (
     <div className="container">
-      <h1 className="title">Fundamentos do React | Teste de Performance 2</h1>
+      <h1 className="title">Fundamentos do React</h1>
+      <h2>Teste de Performance 3</h2>
 
       <ul>
         <li className="item">

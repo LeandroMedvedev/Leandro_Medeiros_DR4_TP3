@@ -1,10 +1,10 @@
-import Projects from './components/Projects';
+import style from './style.module.css';
 
 function Exercise13() {
   return (
-    <>
-      <Projects />
-    </>
+    <div className={style.container}>
+      <p>Exercício</p>
+    </div>
   );
 }
 

@@ -1,10 +1,10 @@
-import AboutMe from './components/AboutMe';
+import style from './style.module.css';
 
 function Exercise11() {
   return (
-    <>
-      <AboutMe />
-    </>
+    <div className={style.container}>
+      <p>Exercício</p>
+    </div>
   );
 }
 

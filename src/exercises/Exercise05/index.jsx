@@ -1,16 +1,9 @@
-import Card from './Card';
-import styles from './style.module.css';
-
-const { container } = styles;
+import style from './style.module.css';
 
 function Exercise05() {
   return (
-    <div className={container}>
-      <h1 className="title">Cards</h1>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+    <div className={style.container}>
+      <p>Exercício</p>
     </div>
   );
 }

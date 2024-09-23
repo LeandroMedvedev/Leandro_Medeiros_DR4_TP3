@@ -1,12 +1,10 @@
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import style from './style.module.css';
 
 function Exercise14() {
   return (
-    <>
-      <Contact />
-      <Footer />
-    </>
+    <div className={style.container}>
+      <p>Exercício</p>
+    </div>
   );
 }
 
