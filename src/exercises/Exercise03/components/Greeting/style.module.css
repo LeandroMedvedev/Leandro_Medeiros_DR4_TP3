@@ -1,0 +1,13 @@
+.container {
+  height: 100vh;
+  background-color: var(--github-graffiti);
+}
+
+.container > .paragraph {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  color: var(--white);
+  text-align: center;
+  font-size: 2rem;
+}
