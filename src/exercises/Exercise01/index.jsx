@@ -1,10 +1,10 @@
-import style from './style.module.css';
+import Greeting from './components/Greeting';
 
 function Exercise01() {
   return (
-    <div className={style.container}>
-      <p>Exercício</p>
-    </div>
+    <>
+      <Greeting name="Kate Austen" />
+    </>
   );
 }
 
