@@ -13,7 +13,7 @@ function TodoItem({ task }) {
   return (
     <li className={isConcluded ? styles.concluded : styles.todoItem}>
       <span>{task}</span>
-      <Button text="Concluir" onClick={handleConclude} />
+      <Button text="Concluir" onClick={handleConclude} disabled={isConcluded} />
     </li>
   );
 }

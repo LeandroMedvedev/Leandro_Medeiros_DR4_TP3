@@ -1,6 +1,7 @@
+import { useState } from 'react';
+
 import styles from './style.module.css';
 import TodoItem from '../TodoItem';
-import { useState } from 'react';
 import Button from '../../../../components/Button';
 
 function TodoList() {
@@ -8,7 +9,6 @@ function TodoList() {
   const [newTask, setNewTask] = useState('');
 
   function handleAddTask() {
-    // eslint-disable-next-line no-extra-boolean-cast
     if (!!newTask.trim()) {
       setTasks([...tasks, newTask]);
       setNewTask('');
