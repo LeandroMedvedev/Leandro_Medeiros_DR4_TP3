@@ -12,6 +12,6 @@
 
 .concluded {
   width: 100%;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   color: var(--shuttle-grey);
 }

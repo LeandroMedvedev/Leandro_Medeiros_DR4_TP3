@@ -15,3 +15,13 @@
   /* text-decoration: line-through; */
   color: var(--shuttle-grey);
 }
+
+.container li {
+  list-style-type: decimal;
+}
+
+.containerButton {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
