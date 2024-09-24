@@ -1,0 +1,10 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-syne-mono);
+  color: var(--white-smoke);
+  background-color: var(--github-graffiti);
+}
