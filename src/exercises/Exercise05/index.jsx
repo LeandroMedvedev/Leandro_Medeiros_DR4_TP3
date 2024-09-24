@@ -1,9 +1,10 @@
-import style from './style.module.css';
+import Counter from './components/Counter';
+import styles from './style.module.css';
 
 function Exercise05() {
   return (
-    <div className={style.container}>
-      <p>Exercício</p>
+    <div className={styles.container}>
+      <Counter />
     </div>
   );
 }
