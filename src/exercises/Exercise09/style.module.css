@@ -5,8 +5,6 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
-  color: var(--white-smoke);
-  background-color: var(--github-graffiti);
   font-family: var(--font-syne-mono);
 }
 

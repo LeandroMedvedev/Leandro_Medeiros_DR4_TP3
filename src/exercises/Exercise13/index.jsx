@@ -1,9 +1,10 @@
 import style from './style.module.css';
+import Temperature from './components/Temperature';
 
 function Exercise13() {
   return (
     <div className={style.container}>
-      <p>Exercício</p>
+      <Temperature temperature={25} />
     </div>
   );
 }

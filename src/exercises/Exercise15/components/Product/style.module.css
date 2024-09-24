@@ -1,0 +1,15 @@
+.container {
+  width: 310px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+  font-size: 1.3rem;
+  border: 1px solid var(--shuttle-grey);
+}
+
+.container > img {
+  margin-right: 10px;
+}

@@ -2,12 +2,13 @@
   "name": "teste-de-performance",
   "version": "0.1.0",
   "description": "Avaliação de competências técnicas do aluno",
+  "main": "src/index.jsx",
+  "license": "MPL-2.0",
   "keywords": [
     "Infnet",
     "teste",
     "performance"
   ],
-  "main": "src/index.jsx",
   "scripts": {
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "lint:fix": "eslint 'src/**/*.{js,jsx}' --fix",

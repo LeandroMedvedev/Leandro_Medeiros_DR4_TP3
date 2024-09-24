@@ -1,6 +1,6 @@
 .container {
   height: 100vh;
-  background-color: var(--github-graffiti);
+  padding: 30px;
 }
 
 .container > .paragraph {

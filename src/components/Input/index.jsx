@@ -1,9 +1,10 @@
 import styles from './style.module.css';
 
-function Input({ onChange, placeholder, value }) {
+function Input({ onBlur, onChange, placeholder, value }) {
   return (
     <input
       className={styles.input}
+      onBlur={onBlur}
       onChange={onChange}
       placeholder={placeholder}
       value={value}

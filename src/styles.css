@@ -25,6 +25,7 @@
   --light-aubergine: #77216f;
   --ubuntu-orange: #e95420;
   --dark-red: #ac1015;
+  --ciano: #0f4d5f;
   --shuttle-grey: #5f6368;
   --ebony: #282c34;
   --midnight-blue: #181a1f;
@@ -56,8 +57,11 @@ html {
 }
 
 .App {
+  min-height: 100vh;
   font-family: Alegreya, system-ui;
   text-align: center;
+  background-color: var(--github-graffiti);
+  color: var(--white);
 }
 
 li {
@@ -66,12 +70,11 @@ li {
 
 a {
   text-decoration: none;
-  color: #282c34;
+  color: var(--white);
 }
 
 .link:hover {
   font-weight: 900;
-  color: #03031b;
   font-size: 1.33rem;
 }
 
@@ -82,11 +85,11 @@ p {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #282c34;
-    color: #fff;
+    background-color: var(--ebony);
+    color: var(--white);
   }
 
   a {
-    color: #fff;
+    color: var(--white);
   }
 }

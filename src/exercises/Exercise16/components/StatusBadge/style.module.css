@@ -1,0 +1,35 @@
+.container {
+  width: 310px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.3rem;
+}
+
+.container > img {
+  margin-right: 10px;
+}
+
+.active svg {
+  fill: green;
+}
+.active::after {
+  content: 'Ativo';
+}
+
+.inactive svg {
+  fill: var(--shuttle-grey);
+}
+.inactive::after {
+  content: 'Inativo';
+}
+
+.pending svg {
+  fill: rgb(236, 155, 4);
+}
+.pending::after {
+  content: 'Pendente';
+}

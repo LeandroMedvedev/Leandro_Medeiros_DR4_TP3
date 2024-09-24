@@ -1,0 +1,13 @@
+.container {
+  min-width: 350px;
+  padding: 10px;
+  text-align: left;
+  text-wrap: pretty;
+  line-height: 2.2;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
