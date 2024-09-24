@@ -1,0 +1,10 @@
+.container {
+  padding: 30px;
+  text-align: left;
+  text-wrap: pretty;
+  line-height: 1.7;
+}
+
+.container li {
+  list-style-type: decimal;
+}

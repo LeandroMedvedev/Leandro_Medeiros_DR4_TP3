@@ -1,9 +1,11 @@
+import TodoList from './components/TodoList';
 import styles from './style.module.css';
 
 function Exercise06() {
   return (
     <div className={styles.container}>
-      <p>Exercício</p>
+      <h1>Lista de Tarefas</h1>
+      <TodoList />
     </div>
   );
 }
